@@ -1,5 +1,3 @@
-/* Estilos para el Datepicker UI */
-
 /* RESET Y ESTILOS BASICOS */
 * {
   margin: 0;
@@ -7,6 +5,7 @@
   box-sizing: border-box;
 }
 
+/* Estilos para el Datepicker UI */
 .container {
   display: grid;
   grid-template-columns: 1fr;
