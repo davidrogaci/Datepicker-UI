@@ -13,10 +13,10 @@
   padding: 10px 15px;
   font-family: rubik;
   font-size: 16px;
-  border: 2px solid #000;
+  border: 2px solid #003a92;
   border-radius: 5px;
   outline: none;
-  width: 200px;
+  width: 100%;
 }
 
 #datepicker:focus {
@@ -33,13 +33,31 @@ h1 {
   font-size: 30px;
 }
 
+a {
+  display: flex;
+  width: 45px;
+  height: 45px;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "rubik";
+  font-size: large;
+  height: 45px;
+}
+
 .container {
   display: grid;
   grid-template-columns: grid (auto-fill, minmax(500px, 1fr));
   margin: 0 auto;
-  width: 500px;
+  width: 450px;
+  justify-content: center;
+  align-content: center;
   gap: 10px;
   padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .calendar-header {
@@ -51,7 +69,7 @@ h1 {
 
 .calendar-body {
   width: 400px;
-  border: 2px solid #000;
+  border: 2px solid #003a92;
 }
 
 .month {
@@ -75,26 +93,11 @@ h1 {
   grid-template-rows: repeat(5, 1fr);
   padding: 20px;
   gap: 12px;
-  border-top: 2px solid #000;
+  border-top: 2px solid #003a92;
 }
 
 .days p:first-child {
   grid-column-start: 3;
-}
-
-a {
-  display: flex;
-  width: 45px;
-  height: 45px;
-}
-
-p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "rubik";
-  font-size: large;
-  height: 45px;
 }
 
 .days p:hover {
